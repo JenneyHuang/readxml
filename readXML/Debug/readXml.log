@@ -1,0 +1,37 @@
+﻿生成启动时间为 2016/12/27 15:27:50。
+     1>项目“C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\readXml\readXml.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Debug\readXml.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Debug\readXml.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Debug\readXml.lib" /MACHINE:X86 Debug\adler32.obj
+         Debug\compress.obj
+         Debug\ioapi.obj
+         Debug\iowin32.obj
+         Debug\mztools.obj
+         Debug\unzip.obj
+         Debug\zip.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         Debug\traverse_dir.obj
+         Debug\readxml.obj
+         Debug\fast_crc32.obj
+         Debug\XInflate.obj
+         Debug\XStream.obj
+         Debug\XUnzip.obj
+         Debug\myutil.obj
+         Debug\stdafx.obj
+         readXml.vcxproj -> C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Debug\readXml.exe
+     1>已完成生成项目“C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\readXml\readXml.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.31

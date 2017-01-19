@@ -1,0 +1,53 @@
+﻿生成启动时间为 2016/12/27 13:13:38。
+     1>项目“C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\readXml\readXml.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D ZLIB_WINAPI /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt readxml.cpp
+         readxml.cpp
+     1>readxml.cpp(919): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const char *'
+         readxml.cpp(919): note: consider using '%hs' in the format string
+         readxml.cpp(919): note: consider using '%Ts' in the format string
+         readxml.cpp(919): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+     1>c:\users\huangyx\documents\visual studio 2015\projects\readxml\readxml\rapidxml-1.13/rapidxml_utils.hpp(40): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+         c:\users\huangyx\documents\visual studio 2015\projects\readxml\readxml\rapidxml-1.13/rapidxml_utils.hpp(28): note: 编译类 模板 成员函数“rapidxml::file<char>::file(const char *)”时
+         readxml.cpp(459): note: 参见对正在编译的函数 模板 实例化“rapidxml::file<char>::file(const char *)”的引用
+         readxml.cpp(459): note: 参见对正在编译的类 模板 实例化“rapidxml::file<char>”的引用
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Release\readXml.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Release\readXml.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Release\readXml.lib" /MACHINE:X86 /SAFESEH Release\adler32.obj
+         Release\compress.obj
+         Release\ioapi.obj
+         Release\iowin32.obj
+         Release\mztools.obj
+         Release\unzip.obj
+         Release\zip.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gzclose.obj
+         Release\gzlib.obj
+         Release\gzread.obj
+         Release\gzwrite.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         Release\traverse_dir.obj
+         Release\readxml.obj
+         Release\fast_crc32.obj
+         Release\XInflate.obj
+         Release\XStream.obj
+         Release\XUnzip.obj
+         Release\myutil.obj
+         Release\stdafx.obj
+         正在生成代码
+         514 of 934 functions (55.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           32 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         readXml.vcxproj -> C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\Release\readXml.exe
+     1>已完成生成项目“C:\Users\huangyx\Documents\Visual Studio 2015\Projects\readXml\readXml\readXml.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.86
